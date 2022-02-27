@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\andreemidio\opencvismo\opencv\build\CMakeFiles\76ef62f9e86813385179608e852a6817\pyopencv_generated_enums.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\andreemidio\opencvismo\opencv\build\CMakeFiles\20c935c1f2e2cee90b1155232c0bfc0c\gen_opencv_python_source.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\andreemidio\opencvismo\opencv\modules\python\bindings\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\andreemidio\opencvismo\opencv\build\modules\python_bindings_generator\CMakeFiles\gen_opencv_python_source" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1672A2DE-AFBA-3237-9DE7-B8B2E4ABEC4E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

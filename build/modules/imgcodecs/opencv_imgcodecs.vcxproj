@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{96869907-4F5E-3053-99CC-F85AFC50EF6D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_imgcodecs</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\andreemidio\opencvismo\opencv\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_imgcodecs.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_imgcodecs455d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\andreemidio\opencvismo\opencv\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_imgcodecs.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_imgcodecs455</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\build\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libpng;D:\andreemidio\opencvismo\opencv\3rdparty\libwebp\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\libjpeg-turbo;D:\andreemidio\opencvismo\opencv\3rdparty\libjpeg-turbo\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Half;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Iex;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmThread;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Imath;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmImf;D:\andreemidio\opencvismo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR="Debug";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>D:\andreemidio\opencvismo\opencv\build\lib\Debug\opencv_imgcodecs455d.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR=\"Debug\";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\build\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libpng;D:\andreemidio\opencvismo\opencv\3rdparty\libwebp\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\libjpeg-turbo;D:\andreemidio\opencvismo\opencv\3rdparty\libjpeg-turbo\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Half;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Iex;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmThread;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Imath;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmImf;D:\andreemidio\opencvismo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\build\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libpng;D:\andreemidio\opencvismo\opencv\3rdparty\libwebp\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\libjpeg-turbo;D:\andreemidio\opencvismo\opencv\3rdparty\libjpeg-turbo\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Half;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Iex;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmThread;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Imath;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmImf;D:\andreemidio\opencvismo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_imgproc455d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\3rdparty\lib\Debug\libjpeg-turbod.lib;..\..\3rdparty\lib\Debug\libwebpd.lib;..\..\3rdparty\lib\Debug\libpngd.lib;..\..\3rdparty\lib\Debug\libtiffd.lib;..\..\3rdparty\lib\Debug\libopenjp2d.lib;..\..\3rdparty\lib\Debug\IlmImfd.lib;..\..\3rdparty\lib\Debug\zlibd.lib;..\..\lib\Debug\opencv_core455d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/andreemidio/opencvismo/opencv/build/lib/Debug/opencv_imgcodecs455d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/andreemidio/opencvismo/opencv/build/bin/Debug/opencv_imgcodecs455d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\build\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libpng;D:\andreemidio\opencvismo\opencv\3rdparty\libwebp\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\libjpeg-turbo;D:\andreemidio\opencvismo\opencv\3rdparty\libjpeg-turbo\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Half;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Iex;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmThread;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Imath;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmImf;D:\andreemidio\opencvismo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR="Release";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ProgramDataBaseFileName>D:\andreemidio\opencvismo\opencv\build\lib\Release\opencv_imgcodecs455.pdb</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;HAVE_WEBP;HAVE_IMGCODEC_HDR;HAVE_IMGCODEC_SUNRASTER;HAVE_IMGCODEC_PXM;HAVE_IMGCODEC_PFM;__OPENCV_BUILD=1;OPJ_STATIC;CMAKE_INTDIR=\"Release\";CVAPI_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\build\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libpng;D:\andreemidio\opencvismo\opencv\3rdparty\libwebp\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\libjpeg-turbo;D:\andreemidio\opencvismo\opencv\3rdparty\libjpeg-turbo\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Half;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Iex;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmThread;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Imath;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmImf;D:\andreemidio\opencvismo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\build\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\3rdparty\zlib;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\openjpeg\openjp2;D:\andreemidio\opencvismo\opencv\build\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libtiff;D:\andreemidio\opencvismo\opencv\3rdparty\libpng;D:\andreemidio\opencvismo\opencv\3rdparty\libwebp\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\libjpeg-turbo;D:\andreemidio\opencvismo\opencv\3rdparty\libjpeg-turbo\src;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Half;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Iex;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmThread;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\Imath;D:\andreemidio\opencvismo\opencv\3rdparty\openexr\IlmImf;D:\andreemidio\opencvismo\opencv\build\3rdparty\openexr;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\opencv_imgproc455.lib;..\..\3rdparty\lib\Release\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\3rdparty\lib\Release\libjpeg-turbo.lib;..\..\3rdparty\lib\Release\libwebp.lib;..\..\3rdparty\lib\Release\libpng.lib;..\..\3rdparty\lib\Release\libtiff.lib;..\..\3rdparty\lib\Release\libopenjp2.lib;..\..\3rdparty\lib\Release\IlmImf.lib;..\..\3rdparty\lib\Release\zlib.lib;..\..\lib\Release\opencv_core455.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/andreemidio/opencvismo/opencv/build/lib/Release/opencv_imgcodecs455.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/andreemidio/opencvismo/opencv/build/bin/Release/opencv_imgcodecs455.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/andreemidio/opencvismo/opencv/modules/imgcodecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/andreemidio/opencvismo/opencv -BD:/andreemidio/opencvismo/opencv/build --check-stamp-file D:/andreemidio/opencvismo/opencv/build/modules/imgcodecs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\andreemidio\opencvismo\opencv\cmake\templates\dllmain.cpp.in;D:\andreemidio\opencvismo\opencv\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/andreemidio/opencvismo/opencv/modules/imgcodecs/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/andreemidio/opencvismo/opencv -BD:/andreemidio/opencvismo/opencv/build --check-stamp-file D:/andreemidio/opencvismo/opencv/build/modules/imgcodecs/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\andreemidio\opencvismo\opencv\cmake\templates\dllmain.cpp.in;D:\andreemidio\opencvismo\opencv\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include\opencv2\imgcodecs.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include\opencv2\imgcodecs\imgcodecs_c.h" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include\opencv2\imgcodecs\ios.h" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include\opencv2\imgcodecs\legacy\constants_c.h" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include\opencv2\imgcodecs\macosx.h" />
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\loadsave.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\utils.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\precomp.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\utils.hpp" />
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_base.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_bmp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_exr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_gdal.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_gdcm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_hdr.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_jpeg.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_jpeg2000.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_jpeg2000_openjpeg.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_pam.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_pfm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_png.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_pxm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_sunras.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_tiff.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_webp.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\bitstrm.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\rgbe.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\exif.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_base.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_bmp.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_exr.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_gdal.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_gdcm.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_hdr.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_jpeg.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_jpeg2000.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_jpeg2000_openjpeg.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_pam.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_pfm.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_png.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_pxm.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_sunras.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_tiff.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmt_webp.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\grfmts.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\bitstrm.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\rgbe.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\imgcodecs\src\exif.hpp" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\build\cvconfig.h" />
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\build\opencv2\opencv_modules.hpp" />
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs\opencv_imgcodecs_pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ResourceCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs\vs_version.rc" />
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs\opencv_imgcodecs_main.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/imgcodecs/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{2876DD00-0F6B-3E85-A814-568EFE3268CA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\3rdparty\openexr\IlmImf.vcxproj">
+      <Project>{E6805E2B-A6D4-3D5A-8488-A8AB21CD1757}</Project>
+      <Name>IlmImf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{1124BAE3-266E-3B6F-A2C9-EC8FCF7908D4}</Project>
+      <Name>ippiw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\3rdparty\libjpeg-turbo\libjpeg-turbo.vcxproj">
+      <Project>{4D86426D-F371-39E3-B2AD-48D95F1C0187}</Project>
+      <Name>libjpeg-turbo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\3rdparty\openjpeg\openjp2\libopenjp2.vcxproj">
+      <Project>{064943FA-805D-3D3A-B86F-6FB7AD560383}</Project>
+      <Name>libopenjp2</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\3rdparty\libpng\libpng.vcxproj">
+      <Project>{8AEA27CF-1041-301B-BF31-E1EAF719D8C6}</Project>
+      <Name>libpng</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\3rdparty\libtiff\libtiff.vcxproj">
+      <Project>{BB30F9EF-94F4-3BBB-9BD6-B586FF0384DE}</Project>
+      <Name>libtiff</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\3rdparty\libwebp\libwebp.vcxproj">
+      <Project>{2C9E84C0-4C5B-346A-A96D-D15167DC78A0}</Project>
+      <Name>libwebp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\core\opencv_core.vcxproj">
+      <Project>{66798888-762C-31AF-8848-E9788EA698B1}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{278CF526-D93E-3016-BCC3-D9B7D2BB8F19}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\3rdparty\zlib\zlib.vcxproj">
+      <Project>{D0AC0A38-5732-397E-AD87-5E52E70DBFD4}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

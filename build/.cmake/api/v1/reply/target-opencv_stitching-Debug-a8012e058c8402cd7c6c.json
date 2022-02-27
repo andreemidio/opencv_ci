@@ -1,0 +1,970 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "bin/Debug/opencv_stitching455d.dll"
+		},
+		{
+			"path" : "lib/Debug/opencv_stitching455d.lib"
+		},
+		{
+			"path" : "bin/Debug/opencv_stitching455d.pdb"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"ocv_add_library",
+			"_ocv_create_module",
+			"ocv_create_module",
+			"ocv_define_module",
+			"install",
+			"ocv_install_target",
+			"target_link_libraries",
+			"__ocv_push_target_link_libraries",
+			"ocv_target_link_libraries",
+			"add_definitions",
+			"ocv_add_module",
+			"include",
+			"include_directories",
+			"ocv_include_directories",
+			"target_include_directories",
+			"_ocv_append_target_includes"
+		],
+		"files" : 
+		[
+			"cmake/OpenCVUtils.cmake",
+			"cmake/OpenCVModule.cmake",
+			"modules/stitching/CMakeLists.txt",
+			"cmake/OpenCVCompilerOptions.cmake",
+			"CMakeLists.txt",
+			"cmake/OpenCVFindLibsPerf.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1108,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 882,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 966,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1547,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 1041,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1224,
+				"parent" : 6
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 976,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1482,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1466,
+				"parent" : 9
+			},
+			{
+				"command" : 9,
+				"file" : 1,
+				"line" : 982,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1496,
+				"parent" : 11
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1466,
+				"parent" : 12
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 1105,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 217,
+				"parent" : 14
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 628,
+				"parent" : 16
+			},
+			{
+				"file" : 3,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 460,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 3,
+				"line" : 472,
+				"parent" : 18
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 910,
+				"parent" : 3
+			},
+			{
+				"command" : 12,
+				"file" : 4,
+				"line" : 730,
+				"parent" : 16
+			},
+			{
+				"file" : 5,
+				"parent" : 22
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 19,
+				"parent" : 23
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 24
+			},
+			{
+				"command" : 14,
+				"file" : 5,
+				"line" : 16,
+				"parent" : 23
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 26
+			},
+			{
+				"command" : 14,
+				"file" : 4,
+				"line" : 597,
+				"parent" : 16
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 315,
+				"parent" : 28
+			},
+			{
+				"command" : 16,
+				"file" : 0,
+				"line" : 1578,
+				"parent" : 4
+			},
+			{
+				"command" : 15,
+				"file" : 0,
+				"line" : 1515,
+				"parent" : 30
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP  /MDd /Zi /Ob0 /Od /RTC1 "
+				},
+				{
+					"fragment" : "/Yu\"D:/andreemidio/opencvismo/opencv/modules/stitching/src/precomp.hpp\" /FI\"D:/andreemidio/opencvismo/opencv/modules/stitching/src/precomp.hpp\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "D:/andreemidio/opencvismo/opencv/build/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "D:/andreemidio/opencvismo/opencv/build/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "D:/andreemidio/opencvismo/opencv/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/stitching/src"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/stitching/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/build/modules/stitching"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/flann/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/features2d/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/calib3d/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				28,
+				36
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " /DWIN32 /D_WINDOWS /W4 /GR  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /EHa /wd4127 /wd4251 /wd4324 /wd4275 /wd4512 /wd4589 /MP  /MDd /Zi /Ob0 /Od /RTC1 "
+				},
+				{
+					"fragment" : " /Yc\"D:/andreemidio/opencvismo/opencv/modules/stitching/src/precomp.hpp\""
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "D:/andreemidio/opencvismo/opencv/build/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "D:/andreemidio/opencvismo/opencv/build/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "D:/andreemidio/opencvismo/opencv/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/stitching/src"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/stitching/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/build/modules/stitching"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/flann/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/features2d/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/calib3d/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				34
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DWIN32 -D_DEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "CVAPI_EXPORTS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "_USE_MATH_DEFINES"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "_VARIADIC_MAX=10"
+				},
+				{
+					"backtrace" : 20,
+					"define" : "_WIN32_WINNT=0x0601"
+				},
+				{
+					"backtrace" : 21,
+					"define" : "__OPENCV_BUILD=1"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_CONSTANT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_FORMAT_MACROS"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "__STDC_LIMIT_MACROS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 25,
+					"path" : "D:/andreemidio/opencvismo/opencv/build/3rdparty/ippicv/ippicv_win/icv/include"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "D:/andreemidio/opencvismo/opencv/build/3rdparty/ippicv/ippicv_win/iw/include"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "D:/andreemidio/opencvismo/opencv/build"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/stitching/src"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/stitching/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/build/modules/stitching"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/core/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/flann/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/imgproc/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/features2d/include"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "D:/andreemidio/opencvismo/opencv/modules/calib3d/include"
+				}
+			],
+			"language" : "RC",
+			"sourceIndexes" : 
+			[
+				35
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 13,
+			"id" : "ippiw::@5f1c6d7264a9a7781a27"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "opencv_core::@90e83aff1e86c0750a9d"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "opencv_flann::@b7c07563ccf30005c216"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "opencv_imgproc::@46089d46ac6964f10538"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "opencv_features2d::@4f2b1ecb2cf869bde395"
+		},
+		{
+			"backtrace" : 10,
+			"id" : "opencv_calib3d::@e8558e004ddb3d41eff9"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "modules"
+	},
+	"id" : "opencv_stitching::@c90dc6396798f553fb2f",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 7,
+				"path" : "x64/vc16/lib"
+			},
+			{
+				"backtrace" : 7,
+				"path" : "x64/vc16/bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "D:/andreemidio/opencvismo/opencv/build/install"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:x64  /debug /INCREMENTAL  /NODEFAULTLIB:libc /DEBUG",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\lib\\Debug\\opencv_calib3d455d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "..\\..\\3rdparty\\lib\\Debug\\ippiwd.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "..\\..\\3rdparty\\ippicv\\ippicv_win\\icv\\lib\\intel64\\ippicvmt.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\lib\\Debug\\opencv_features2d455d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\lib\\Debug\\opencv_flann455d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\lib\\Debug\\opencv_imgproc455d.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "..\\..\\lib\\Debug\\opencv_core455d.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "opencv_stitching",
+	"nameOnDisk" : "opencv_stitching455d.dll",
+	"paths" : 
+	{
+		"build" : "modules/stitching",
+		"source" : "modules/stitching"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Include\\opencv2",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\stitching\\detail",
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12
+			]
+		},
+		{
+			"name" : "Include\\opencv2\\stitching",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		},
+		{
+			"name" : "Src",
+			"sourceIndexes" : 
+			[
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				30,
+				31,
+				34,
+				35
+			]
+		},
+		{
+			"name" : "Src\\opencl\\kernels",
+			"sourceIndexes" : 
+			[
+				26,
+				27
+			]
+		},
+		{
+			"name" : "Src\\opencl\\kernels\\autogenerated",
+			"sourceIndexes" : 
+			[
+				28,
+				29
+			]
+		},
+		{
+			"name" : "Include",
+			"sourceIndexes" : 
+			[
+				32,
+				33
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				36
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				37
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/autocalib.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/blenders.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/camera.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/exposure_compensate.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/matchers.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/motion_estimators.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/seam_finders.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/timelapsers.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/util.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/util_inl.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/warpers.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/detail/warpers_inl.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/include/opencv2/stitching/warpers.hpp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/autocalib.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/blenders.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/camera.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/exposure_compensate.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/matchers.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/motion_estimators.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/seam_finders.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/stitcher.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/timelapsers.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/util.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/warpers.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "modules/stitching/src/warpers_cuda.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/src/opencl/multibandblend.cl",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/src/opencl/warpers.cl",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/modules/stitching/opencl_kernels_stitching.cpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "build/modules/stitching/opencl_kernels_stitching.hpp",
+			"sourceGroupIndex" : 5
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/src/precomp.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"path" : "modules/stitching/src/util_log.hpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/cvconfig.h",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"path" : "build/opencv2/opencv_modules.hpp",
+			"sourceGroupIndex" : 6
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 1,
+			"path" : "build/modules/stitching/opencv_stitching_pch.cpp",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 2,
+			"path" : "build/modules/stitching/vs_version.rc",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "build/modules/stitching/opencv_stitching_main.cpp",
+			"sourceGroupIndex" : 7
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/ac14c6e498ad22aaeb5b5f98fcae2fa7/opencl_kernels_stitching.cpp.rule",
+			"sourceGroupIndex" : 8
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

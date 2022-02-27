@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgproc\src\imgwarp.sse4_1.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\imgproc\src\resize.sse4_1.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\accum.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\box_filter.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\filter.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\color_hsv.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\color_rgb.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\color_yuv.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\median_blur.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\morph.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\smooth.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\andreemidio\opencvismo\opencv\modules\imgproc\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{316FC34B-F6B4-3E72-8B4E-4AAE4DDB7C68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{F99BA10E-3DB1-3933-94D9-252F01823ACC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

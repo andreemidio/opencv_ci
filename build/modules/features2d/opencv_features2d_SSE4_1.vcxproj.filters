@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\features2d\sift.sse4_1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\andreemidio\opencvismo\opencv\modules\features2d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{316FC34B-F6B4-3E72-8B4E-4AAE4DDB7C68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

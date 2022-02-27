@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_compoundkernel_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_core_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_imgproc_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_operators_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_render_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_stereo_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_video_tests.cpp">
+      <Filter>Src\common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\cpu\gapi_core_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\cpu\gapi_core_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\cpu\gapi_imgproc_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\cpu\gapi_imgproc_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\cpu\gapi_ocv_stateful_kernel_tests.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\cpu\gapi_operators_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\cpu\gapi_operators_tests_fluid.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\cpu\gapi_stereo_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\cpu\gapi_video_tests_cpu.cpp">
+      <Filter>Src\cpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\executor\gtbbexecutor_internal_tests.cpp">
+      <Filter>Src\executor</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_array_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_async_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_basic_hetero_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_compile_args_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_desc_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_fluid_parallel_rois_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_fluid_resize_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_fluid_roi_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_fluid_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_fluid_test_kernels.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_frame_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_gcompiled_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_gcomputation_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_gpu_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_graph_meta_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_kernel_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_opaque_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_plaidml_pipelines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_planar_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_sample_pipelines.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_scalar_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_smoke_test.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_transform_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_typed_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_util_tests.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gpu\gapi_core_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gpu\gapi_imgproc_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gpu\gapi_operators_tests_gpu.cpp">
+      <Filter>Src\gpu</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\infer\gapi_infer_ie_test.cpp">
+      <Filter>Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\infer\gapi_infer_onnx_test.cpp">
+      <Filter>Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\infer\gapi_infer_tests.cpp">
+      <Filter>Src\infer</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_backend_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_dynamic_graph.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_executor_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_garg_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_gmetaarg_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_gmodel_builder_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_island_fusion_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_island_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_pattern_matching_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_perform_substitution_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_proto_tests.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_recompilation_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_int_vectorref_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\internal\gapi_transactions_test.cpp">
+      <Filter>Src\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\oak\gapi_tests_oak.cpp">
+      <Filter>Src\oak</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\own\conc_queue_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\own\gapi_types_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\own\last_written_value_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\own\mat_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\own\scalar_tests.cpp">
+      <Filter>Src\own</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\render\ftp_render_test.cpp">
+      <Filter>Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\render\gapi_render_tests_ocv.cpp">
+      <Filter>Src\render</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\rmat\rmat_integration_tests.cpp">
+      <Filter>Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\rmat\rmat_tests.cpp">
+      <Filter>Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\rmat\rmat_view_tests.cpp">
+      <Filter>Src\rmat</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\s11n\gapi_s11n_tests.cpp">
+      <Filter>Src\s11n</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\s11n\gapi_sample_pipelines_s11n.cpp">
+      <Filter>Src\s11n</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\streaming\gapi_gstreamer_pipeline_facade_int_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\streaming\gapi_gstreamersource_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\streaming\gapi_streaming_sync_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\streaming\gapi_streaming_tests.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\streaming\gapi_streaming_utils_test.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\streaming\gapi_streaming_vpl_core_test.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\streaming\gapi_streaming_vpl_data_provider.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\streaming\gapi_streaming_vpl_device_selector.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\streaming\gapi_streaming_vpp_preproc_test.cpp">
+      <Filter>Src\streaming</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\test_main.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\util\any_tests.cpp">
+      <Filter>Src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\util\optional_tests.cpp">
+      <Filter>Src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\util\variant_tests.cpp">
+      <Filter>Src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\gapi\opencv_test_gapi_pch.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_core_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_core_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_core_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_imgproc_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_imgproc_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_imgproc_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_operators_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_operators_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_parsers_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_render_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_stereo_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_stereo_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_streaming_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_tests_helpers.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_video_tests.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_video_tests_common.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\common\gapi_video_tests_inl.hpp">
+      <Filter>Include\common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\cpu\gapi_ocv_stateful_kernel_test_utils.hpp">
+      <Filter>Include\cpu</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_fluid_test_kernels.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\gapi_mock_kernels.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\opencl_kernels_test_gapi.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\rmat\rmat_test_common.hpp">
+      <Filter>Include\rmat</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\gapi\test\test_precomp.hpp">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\andreemidio\opencvismo\opencv\modules\gapi\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Include">
+      <UniqueIdentifier>{11479DC2-5467-3D06-8156-63BD4A349F20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\common">
+      <UniqueIdentifier>{0A66CFFB-F522-3037-8C2B-1A41A511DC43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\cpu">
+      <UniqueIdentifier>{5F994A81-DD93-361D-A0FA-EDD1A1005CED}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\rmat">
+      <UniqueIdentifier>{32B52A9A-EB8C-3B5F-94B9-799B1CD388E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{F99BA10E-3DB1-3933-94D9-252F01823ACC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\common">
+      <UniqueIdentifier>{8BD0D627-BC78-31DF-A8CE-2C87DE7F9B6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\cpu">
+      <UniqueIdentifier>{C7B21163-7C34-3768-B328-5E97906E3813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\executor">
+      <UniqueIdentifier>{E7C786E7-E99F-3BBD-9848-73AB4D018B72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\gpu">
+      <UniqueIdentifier>{576A6A33-430E-3B15-A950-CBE6EBD111EB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\infer">
+      <UniqueIdentifier>{D9829F79-6BD8-3FA1-BFCD-DB8F9825D308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\internal">
+      <UniqueIdentifier>{AC35DAAE-FD57-3739-A0C9-0F776F0587CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\oak">
+      <UniqueIdentifier>{844E65C6-E4EC-3E10-8BAA-2D6B23099137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\own">
+      <UniqueIdentifier>{1014506A-6B3C-33C3-A570-8BF973952D7A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\render">
+      <UniqueIdentifier>{5F000056-2329-3891-AC2B-ADA830D61396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\rmat">
+      <UniqueIdentifier>{E1C5EF42-9EAB-3189-8F53-627F6CC15982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\s11n">
+      <UniqueIdentifier>{8D7AF7DA-70FA-373E-A3F8-EDADC71CE6A5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\streaming">
+      <UniqueIdentifier>{39CAC02C-8BE5-3A16-8B72-73F899962DBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\util">
+      <UniqueIdentifier>{94878B20-2ED9-3DC1-AC3F-DC98F68CFCFF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

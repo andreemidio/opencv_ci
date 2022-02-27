@@ -1,0 +1,219 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/include/opencv2/objdetect.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/include/opencv2/objdetect/detection_based_tracker.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/include/opencv2/objdetect/face.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/include/opencv2/objdetect/objdetect.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/cascadedetect.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/cascadedetect_convert.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/detection_based_tracker.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/face_detect.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/face_recognize.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/hog.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/main.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/qrcode.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/qrcode_encoder.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/opencl/cascadedetect.cl",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/opencl/objdetect_hog.cl",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/build/modules/objdetect/opencl_kernels_objdetect.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/build/modules/objdetect/opencl_kernels_objdetect.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/cascadedetect.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/precomp.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/modules/objdetect/src/qrcode_encoder_table.inl.hpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/build/cvconfig.h"
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/build/opencv2/opencv_modules.hpp"
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/build/modules/objdetect/opencv_objdetect_pch.cpp",
+			"labels" : 
+			[
+				"Main",
+				"opencv_objdetect",
+				"Module"
+			]
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/build/modules/objdetect/vs_version.rc"
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/build/modules/objdetect/opencv_objdetect_main.cpp"
+		},
+		{
+			"file" : "D:/andreemidio/opencvismo/opencv/build/CMakeFiles/1d24b9a97a60b6a66e4842a1703d1624/opencl_kernels_objdetect.cpp.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Main",
+			"opencv_objdetect",
+			"Module"
+		],
+		"name" : "opencv_objdetect"
+	}
+}

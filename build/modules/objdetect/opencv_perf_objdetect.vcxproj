@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{03F81C19-CB06-32B8-85F9-85061E1023BE}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>opencv_perf_objdetect</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\andreemidio\opencvismo\opencv\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_perf_objdetect.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">opencv_perf_objdetectd</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\andreemidio\opencvismo\opencv\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_perf_objdetect.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">opencv_perf_objdetect</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\3rdparty\quirc\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\modules\ts\include;D:\andreemidio\opencvismo\opencv\modules\objdetect\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\flann\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\modules\dnn\include;D:\andreemidio\opencvismo\opencv\modules\features2d\include;D:\andreemidio\opencvismo\opencv\modules\calib3d\include;D:\andreemidio\opencvismo\opencv\modules\videoio\include;D:\andreemidio\opencvismo\opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\3rdparty\quirc\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\modules\ts\include;D:\andreemidio\opencvismo\opencv\modules\objdetect\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\flann\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\modules\dnn\include;D:\andreemidio\opencvismo\opencv\modules\features2d\include;D:\andreemidio\opencvismo\opencv\modules\calib3d\include;D:\andreemidio\opencvismo\opencv\modules\videoio\include;D:\andreemidio\opencvismo\opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\3rdparty\quirc\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\modules\ts\include;D:\andreemidio\opencvismo\opencv\modules\objdetect\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\flann\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\modules\dnn\include;D:\andreemidio\opencvismo\opencv\modules\features2d\include;D:\andreemidio\opencvismo\opencv\modules\calib3d\include;D:\andreemidio\opencvismo\opencv\modules\videoio\include;D:\andreemidio\opencvismo\opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Debug\opencv_ts455d.lib;..\..\lib\Debug\opencv_objdetect455d.lib;..\..\lib\Debug\opencv_highgui455d.lib;..\..\lib\Debug\opencv_dnn455d.lib;..\..\lib\Debug\opencv_calib3d455d.lib;..\..\3rdparty\lib\Debug\ippiwd.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\lib\Debug\opencv_videoio455d.lib;..\..\lib\Debug\opencv_imgcodecs455d.lib;..\..\lib\Debug\opencv_features2d455d.lib;..\..\lib\Debug\opencv_flann455d.lib;..\..\lib\Debug\opencv_imgproc455d.lib;..\..\lib\Debug\opencv_core455d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/andreemidio/opencvismo/opencv/build/bin/Debug/opencv_perf_objdetectd.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/andreemidio/opencvismo/opencv/build/bin/Debug/opencv_perf_objdetectd.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\3rdparty\quirc\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\modules\ts\include;D:\andreemidio\opencvismo\opencv\modules\objdetect\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\flann\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\modules\dnn\include;D:\andreemidio\opencvismo\opencv\modules\features2d\include;D:\andreemidio\opencvismo\opencv\modules\calib3d\include;D:\andreemidio\opencvismo\opencv\modules\videoio\include;D:\andreemidio\opencvismo\opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DisableSpecificWarnings>4127;4251;4324;4275;4512;4589</DisableSpecificWarnings>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;_WIN32_WINNT=0x0601;_USE_MATH_DEFINES;__STDC_CONSTANT_MACROS;__STDC_LIMIT_MACROS;__STDC_FORMAT_MACROS;__OPENCV_BUILD=1;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\3rdparty\quirc\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\modules\ts\include;D:\andreemidio\opencvismo\opencv\modules\objdetect\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\flann\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\modules\dnn\include;D:\andreemidio\opencvismo\opencv\modules\features2d\include;D:\andreemidio\opencvismo\opencv\modules\calib3d\include;D:\andreemidio\opencvismo\opencv\modules\videoio\include;D:\andreemidio\opencvismo\opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\andreemidio\opencvismo\opencv\3rdparty\quirc\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\icv\include;D:\andreemidio\opencvismo\opencv\build\3rdparty\ippicv\ippicv_win\iw\include;D:\andreemidio\opencvismo\opencv\build;D:\andreemidio\opencvismo\opencv\modules\ts\include;D:\andreemidio\opencvismo\opencv\modules\objdetect\include;D:\andreemidio\opencvismo\opencv\modules\imgcodecs\include;D:\andreemidio\opencvismo\opencv\modules\core\include;D:\andreemidio\opencvismo\opencv\modules\flann\include;D:\andreemidio\opencvismo\opencv\modules\imgproc\include;D:\andreemidio\opencvismo\opencv\modules\dnn\include;D:\andreemidio\opencvismo\opencv\modules\features2d\include;D:\andreemidio\opencvismo\opencv\modules\calib3d\include;D:\andreemidio\opencvismo\opencv\modules\videoio\include;D:\andreemidio\opencvismo\opencv\modules\highgui\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\lib\Release\opencv_ts455.lib;..\..\lib\Release\opencv_objdetect455.lib;..\..\lib\Release\opencv_highgui455.lib;..\..\lib\Release\opencv_dnn455.lib;..\..\lib\Release\opencv_calib3d455.lib;..\..\3rdparty\lib\Release\ippiw.lib;..\..\3rdparty\ippicv\ippicv_win\icv\lib\intel64\ippicvmt.lib;..\..\lib\Release\opencv_videoio455.lib;..\..\lib\Release\opencv_imgcodecs455.lib;..\..\lib\Release\opencv_features2d455.lib;..\..\lib\Release\opencv_flann455.lib;..\..\lib\Release\opencv_imgproc455.lib;..\..\lib\Release\opencv_core455.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/andreemidio/opencvismo/opencv/build/bin/Release/opencv_perf_objdetect.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/andreemidio/opencvismo/opencv/build/bin/Release/opencv_perf_objdetect.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\andreemidio\opencvismo\opencv\modules\objdetect\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/andreemidio/opencvismo/opencv/modules/objdetect/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/andreemidio/opencvismo/opencv -BD:/andreemidio/opencvismo/opencv/build --check-stamp-file D:/andreemidio/opencvismo/opencv/build/modules/objdetect/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\andreemidio\opencvismo\opencv\cmake\templates\dllmain.cpp.in;D:\andreemidio\opencvismo\opencv\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\andreemidio\opencvismo\opencv\build\modules\objdetect\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/andreemidio/opencvismo/opencv/modules/objdetect/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/andreemidio/opencvismo/opencv -BD:/andreemidio/opencvismo/opencv/build --check-stamp-file D:/andreemidio/opencvismo/opencv/build/modules/objdetect/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\andreemidio\opencvismo\opencv\cmake\templates\dllmain.cpp.in;D:\andreemidio\opencvismo\opencv\cmake\templates\vs_version.rc.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\andreemidio\opencvismo\opencv\build\modules\objdetect\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\objdetect\perf\opencl\perf_cascades.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\objdetect\perf\opencl\perf_hogdetect.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\objdetect\perf\perf_main.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\modules\objdetect\perf\perf_qrcode_pipeline.cpp">
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <ForcedIncludeFiles Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Use</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClInclude Include="D:\andreemidio\opencvismo\opencv\modules\objdetect\perf\perf_precomp.hpp" />
+    <ClCompile Include="D:\andreemidio\opencvismo\opencv\build\modules\objdetect\opencv_perf_objdetect_pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:/andreemidio/opencvismo/opencv/modules/objdetect/perf/perf_precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\ZERO_CHECK.vcxproj">
+      <Project>{2876DD00-0F6B-3E85-A814-568EFE3268CA}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\3rdparty\ippiw\ippiw.vcxproj">
+      <Project>{1124BAE3-266E-3B6F-A2C9-EC8FCF7908D4}</Project>
+      <Name>ippiw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\calib3d\opencv_calib3d.vcxproj">
+      <Project>{E85E60C3-5ADF-3837-9EE5-22D72ABA08BB}</Project>
+      <Name>opencv_calib3d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\core\opencv_core.vcxproj">
+      <Project>{66798888-762C-31AF-8848-E9788EA698B1}</Project>
+      <Name>opencv_core</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\dnn\opencv_dnn.vcxproj">
+      <Project>{12C57FAC-3677-3EAC-A8FF-76975DA11C74}</Project>
+      <Name>opencv_dnn</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\features2d\opencv_features2d.vcxproj">
+      <Project>{80F61CB6-9EEE-358A-948A-A837E73FD07F}</Project>
+      <Name>opencv_features2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\flann\opencv_flann.vcxproj">
+      <Project>{FD051231-3918-3688-90C9-82FB26FB07D0}</Project>
+      <Name>opencv_flann</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\highgui\opencv_highgui.vcxproj">
+      <Project>{96D8DEC6-85F2-34C6-9167-8A80CAAC742C}</Project>
+      <Name>opencv_highgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\opencv_highgui_plugins.vcxproj">
+      <Project>{D0F4EC92-C492-3F91-A6A2-0F9C6FDC1D15}</Project>
+      <Name>opencv_highgui_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\imgcodecs\opencv_imgcodecs.vcxproj">
+      <Project>{96869907-4F5E-3053-99CC-F85AFC50EF6D}</Project>
+      <Name>opencv_imgcodecs</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\imgproc\opencv_imgproc.vcxproj">
+      <Project>{278CF526-D93E-3016-BCC3-D9B7D2BB8F19}</Project>
+      <Name>opencv_imgproc</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\objdetect\opencv_objdetect.vcxproj">
+      <Project>{4762B139-A3CE-3B45-80FB-991F913D7058}</Project>
+      <Name>opencv_objdetect</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\ts\opencv_ts.vcxproj">
+      <Project>{A5BF2454-994B-3CFA-B47E-7B01034F8FB7}</Project>
+      <Name>opencv_ts</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\videoio\opencv_videoio.vcxproj">
+      <Project>{95154329-C4CA-3E3A-8544-A3904BDC16DD}</Project>
+      <Name>opencv_videoio</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\andreemidio\opencvismo\opencv\build\modules\.firstpass\videoio\opencv_videoio_plugins.vcxproj">
+      <Project>{605F2A6B-7551-32AE-A54D-576ABFB4BC8D}</Project>
+      <Name>opencv_videoio_plugins</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
