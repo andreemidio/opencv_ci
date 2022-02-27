@@ -47,14 +47,49 @@ jobs:
       - uses: actions/checkout@v2
         with:
           submodules: recursive
-      - name: Install CUDA
-        env:
-          cuda: ${{ matrix.cuda }}
-          visual_studio: ${{ matrix.visual_studio }}
-        shell: powershell
-        run: .\dependencies\cuda-cmake-github-actions\scripts\actions\install_cuda_windows.ps1
-      - name: CMake
-        run: cmake . -B ${{ env.build_dir }} -G "${{ matrix.visual_studio }}" -A x64
-      - name: Build
-        working-directory: ${{ env.build_dir }}
-        run: cmake --build . --config ${{ env.config }} --target ALL_BUILD --verbose
+      
+      - name: Fetch opencv_contrib
+      run: |
+        git clone --depth 1 https://github.com/opencv/opencv_contrib.git --branch 4.5.5 ../opencv_contrib
+
+      # - name: Install CUDA
+      #   env:
+      #     cuda: ${{ matrix.cuda }}
+      #     visual_studio: ${{ matrix.visual_studio }}
+      #   shell: powershell
+      #   run: .\dependencies\cuda-cmake-github-actions\scripts\actions\install_cuda_windows.ps1
+      # - name: CMake
+      #   run: cmake . -B ${{ env.build_dir }} -G "${{ matrix.visual_studio }}" -A x64
+      # - name: Build
+      #   working-directory: ${{ env.build_dir }}
+      #   run: cmake --build . --config ${{ env.config }} -GNinja --target ALL_BUILD --verbose
+
+# cmake -D CMAKE_BUILD_TYPE=RELEASE \
+#  -D CMAKE_INSTALL_PREFIX=/usr/local \
+#  -D INSTALL_PYTHON_EXAMPLES=OFF \
+#  -D INSTALL_C_EXAMPLES=ON \
+# -D WITH_TBB=ON \
+# -D ENABLE_FAST_MATH=1 \
+# -D CUDA_FAST_MATH=1 \
+# -D WITH_CUBLAS=1 \
+# -D WITH_CUDA=ON \
+# -D BUILD_opencv_cudacodec=OFF \
+# -D WITH_CUDNN=ON \
+# -D OPENCV_DNN_CUDA=ON \
+# -D CUDA_ARCH_BIN=7.5 \
+# -D WITH_V4L=ON \
+# -D WITH_QT=OFF \
+# -D WITH_OPENGL=ON \
+# -D WITH_GSTREAMER=ON \
+# -D OPENCL_FOUND=ON \
+# -D WITH_OPENCL=ON \
+# -D WITH_OPENCLAMDFFT=ON\
+# -D WITH_OPENCLAMDBLAS=ON \
+# -D WITH_OPENCL_D3D11_NV=ON \
+# -D OPENCV_DNN_OPENCL=ON\
+# -D OPENCV_GENERATE_PKGCONFIG=ON \
+# -D BUILD_opencv_cudev=ON \
+# -D OPENCV_PC_FILE_NAME=opencv.pc \
+# -D OPENCV_ENABLE_NONFREE=ON \
+#  -D OPENCV_EXTRA_MODULES_PATH=/home/andre/opencv/opencv_contrib/modules \
+#  -D BUILD_EXAMPLES=ON ..
