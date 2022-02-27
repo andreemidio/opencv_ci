@@ -1,4 +1,0 @@
-# CMake generation dependency list for this directory.
-D:/andreemidio/opencvismo/opencv/cmake/templates/dllmain.cpp.in
-D:/andreemidio/opencvismo/opencv/cmake/templates/vs_version.rc.in
-D:/andreemidio/opencvismo/opencv/modules/objdetect/CMakeLists.txt
