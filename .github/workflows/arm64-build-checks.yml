@@ -67,6 +67,7 @@ jobs:
       - name: Build
         working-directory: ${{ env.build_dir }}
         run: cmake --build . --config ${{ env.config }} -G Ninja --target ALL_BUILD --verbose \
+            -D CMAKE_BUILD_TYPE=${{ env.config }}
             -D CMAKE_INSTALL_PREFIX=/usr/local \
             -D INSTALL_PYTHON_EXAMPLES=OFF \
             -D INSTALL_C_EXAMPLES=ON \
