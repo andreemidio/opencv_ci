@@ -31,6 +31,11 @@ $CUDA_KNOWN_URLS = @{
     "11.6.0" = "https://developer.download.nvidia.com/compute/cuda/11.6.0/network_installers/cuda_11.6.0_win10_network.exe"
 }
 
+$CUDA_KNOWN_URLS = @{
+"11.5" =  "https://developer.nvidia.com/compute/cudnn/secure/8.3.1/local_installers/11.5/cudnn-windows-x86_64-8.3.1.22_cuda11.5-archive.zip";
+"11.4" ="https://developer.nvidia.com/compute/machine-learning/cudnn/secure/8.2.4/11.4_20210831/cudnn-11.4-windows-x64-v8.2.4.15.zip";
+}
+
 # @todo - change this to be based on _MSC_VER intead, or invert it to be CUDA keyed instead?
 $VISUAL_STUDIO_MIN_CUDA = @{
     "2019" = "10.1";
