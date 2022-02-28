@@ -49,8 +49,8 @@ jobs:
           submodules: recursive
       
       - name: Fetch opencv_contrib
-      run: |
-        git clone --depth 1 https://github.com/opencv/opencv_contrib.git --branch 4.5.5 ../opencv_contrib
+        run: |
+          git clone --depth 1 https://github.com/opencv/opencv_contrib.git --branch 4.5.5 ../opencv_contrib
 
       - name: Install CUDA
         env:
