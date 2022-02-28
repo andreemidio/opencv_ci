@@ -62,6 +62,10 @@ jobs:
           visual_studio: ${{ matrix.visual_studio }}
         shell: powershell
         run: .\dependencies\cuda-cmake-github-actions\scripts\actions\install_cuda_windows.ps1
+      
+      - name : NVCC
+        run : nvcc --version
+        
       - name: CMake
         run: cmake . -B ${{ env.build_dir }} -G "${{ matrix.visual_studio }}" -A x64
       
