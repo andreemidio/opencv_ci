@@ -90,4 +90,15 @@ jobs:
             -D OPENCV_PC_FILE_NAME=opencv.pc \
             -D OPENCV_ENABLE_NONFREE=ON \
             -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules \
+            -D CPACK_BINARY_ZIP=1 \
             -D BUILD_EXAMPLES=ON ..
+      
+      - name: CMake Generate Package
+        run: ninja package
+
+      - name: Archive Release
+        uses: thedoctor0/zip-release@master
+        with:
+          type: 'zip'
+          filename: 'opencv.zip'
+          exclusions: '*.git* /*node_modules/* .editorconfig'
