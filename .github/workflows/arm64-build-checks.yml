@@ -85,6 +85,7 @@ jobs:
             -D WITH_OPENGL=ON \
             -D WITH_GSTREAMER=ON \
             -D OPENCL_FOUND=ON \
+            - WITH_CUDA=ON\
             -D WITH_OPENCL=ON \
             -D WITH_OPENCLAMDFFT=ON\
             -D WITH_OPENCLAMDBLAS=ON \
