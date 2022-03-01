@@ -73,8 +73,8 @@ jobs:
         working-directory: ${{ env.build_dir }}
         run: cmake --build . --config ${{ env.config }} --target INSTALL --verbose
       
-      - name: CMake Generate Package
-        run: ninja package
+      # - name: CMake Generate Package
+      #   run: ninja package
 
       - name: Archive Release
         uses: thedoctor0/zip-release@master
