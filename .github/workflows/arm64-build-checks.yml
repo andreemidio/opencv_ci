@@ -104,6 +104,13 @@ jobs:
         working-directory: ${{ env.build_dir }}
         run: cmake --build . --config ${{ env.config }} --target INSTALL --verbose
       
+      - name : View Logs 
+        run : Get-Content D:/a/opencv_ci/opencv_ci/build/CMakeFiles/CMakeOutput.log -Wait       
+
+      - name : View Logs Error
+        run : Get-Content D:/a/opencv_ci/opencv_ci/build/CMakeFiles/CMakeError.log -Wait 
+
+
       - uses: actions/checkout@v2
       - uses: ncipollo/release-action@v1
         with:
@@ -111,6 +118,7 @@ jobs:
           bodyFile: "body.md"
           token: ${{ secrets.TOKEN }}
       
+
       - name: Archive Release
         uses: thedoctor0/zip-release@master
         with:
